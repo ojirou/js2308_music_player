@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="mplayer.css">
+  </head>
+  <body>
+    <div class="appframe">
+      <h1>Music Player</h1>
+      <img src="pict_stop.png" alt="再生状態を表す画像">
+      <audio src="bgm1.mp3" controls></audio>
+      <p>Select music ! <a id="random" href="#">Random</a></p>
+      <ul>
+        <li data-file="bgm1.mp3" class="active">MUSIC 1</li>
+        <li data-file="bgm2.mp3">MUSIC 2</li>
+        <li data-file="bgm3.mp3">MUSIC 3</li>
+        <li data-file="bgm4.mp3">MUSIC 4</li>
+        <li data-file="bgm5.mp3">MUSIC 5</li>
+        <li data-file="bgm6.mp3">MUSIC 6</li>
+      </ul>
+      <script src="mplayer.js" charset="utf-8"></script>
+    </div>
+  </body>
+</html>
